@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Libre Barcode 128 Text', cursive;
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: 'IBM Plex Serif', serif;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	font-family: 'IBM Plex Serif', serif;
+	text-transform: uppercase;	
+}
+
+h1 {
+	font-size: 3em;
+	padding: 4% 0;
+}
+
+h2 {
+	font-size: 3em;
+	padding: 60px 0 60px 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.header {
+	background-image: url('../images/header2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 90vh;
+	color: #900c3f;
+	color: black;
+}
+
+.header a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.header p {
+	text-align: center;
+	font-size: 1em;
+	font-family: 'IBM Plex Serif', serif;
+}
+
+.logo {
+	font-family: 'Libre Barcode 128 Text', cursive;
+	text-align: center;
+	font-size: 3em;
+	padding: 5%;
+}
+
+.get{
+	float: right;
+	font-family: 'IBM Plex Serif', serif;
+}
+
+.greeting{
+	padding: 29% 0 16% 0;
+	text-align: center;
+	line-height: 20px;
+	font-family: 'IBM Plex Serif', serif;	
+}
+
+.icons {
+	text-align: center;
+	font-size: 2em;
+	padding-top: 7%;
+}
+
+.nav {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+}
+
+.nav-link {
+	color: #b7b9bc;
+	font-family: 'IBM Plex Serif', serif;
+}
+
+.projects h2 {
+	color: #900c3f;
+	font-size: 2.6em;
+}
+
+.projects img {
+	height: 50vh;
+	width: 100%;
+	border: 5px solid #fff;
+	position: relative;
+}
+
+.projects h4 {
+	color: #16736e; 
+	font-size: 8px;
+	font-weight: bold;
+	background: #75e3dd;
+	display: inline-block;
+	margin: 0;
+	padding: 4px;
+	position: absolute;
+	z-index: 1;
+	top: -10px;
+}
+
+.info {
+	padding-bottom: 3%;
+	border-top: 2px solid #c39797;
+	border-bottom: 2px solid #c39797;
+}
+
+.projects a {
+	color: #16736e;
+}
+
+.projects p {
+	text-align: left;
+	padding: 2% 0 0 0;
+}
+
+.about h2 {
+	color: #c39797;
+	font-size: 2.6em;	
+}
+
+.about p {
+	font-size: 15px;
+}
+
+.about img {
+	margin-bottom: 40px;
+}
+
+.about .icons {
+	text-align: left;
+}
+
+.about i {
+	padding: 0
+	font-size: 1em;
+	color: #ddd;
+}
+
+.contact h2 {
+	color: #4c8270;
+	font-size: 2.6em;
+	padding: 60px 0 60px 30px;	
+}
+
+.contact-info {
+	padding-top: 6%;
+	border-bottom: 3px solid #4c8270;
+	text-align: center;
+	padding-right: 20px;
+}
+
+.contact p {
+	font-size: 18px;
+}
+
+.contact img {
+	height: 250px;
+	padding-top: 3%;
+}
+
+.hidden {
+visibility: hidden;
+}
+
+.footer {
+	width: 100%;
+	background: #f4979c;
+	min-height: 220px;
+	background-image: url('../images/socialmedia.svg');
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0 0 0;
+}
+
+.footer p {
+	color: white;
+	text-align: left;
+	font-size: 0.8em;
+	bottom: 0;
+}
+
+.social-icons-container {
+	text-align: center;
+}
+
+.social-icons-container i {
+	color: #fff;
+	font-size: 3em;
+	padding:0 5% 2% 0;
+}
+
+
+
+
+@media (min-width: 768px) { 
+.greeting{
+	padding: 25% 0 16% 0;
+	text-align: center;
+	line-height: 20px;
+	font-family: 'IBM Plex Serif', serif;	
+}
+
+.logo {
+	font-family: 'Libre Barcode 128 Text', cursive;
+	float: left;
+	padding: 0;
+}
+.get {
+	float: right;
+	padding: 2% 2% 0 0;
+	font-size: 0.6em;
+}
+
+.greeting {
+	padding: 18% 0 4% 0;
+}
+
+.icons {
+	font-size: 2em;
+	padding-top: 4%;
+}
+
+.projects h2 {
+	color: #900c3f;
+	font-size: 4em;
+}
+
+.projects img {
+	height: 50vh;
+	width: 80%;
+	border: 5px solid #fff;
+}
+
+.projects h4 {
+	color: #16736e; 
+	font-size: 16px;
+	font-weight: bold;
+	background: #75e3dd;
+	display: inline-block;
+	margin: 0;
+	padding: 4px;
+	position: absolute;
+	z-index: 1;
+	top: -15px;
+}
+
+.about h2 {
+	color: #c39797;
+	font-size: 4em;
+}
+
+.about i {
+	padding: 0
+	font-size: 1em;
+	color: #ddd;
+}
+
+.contact h2 {
+	color: #4c8270;
+	font-size: 4em;	
+	padding: 60px 0 60px 30px;	
+}
+
+.hidden {
+	visibility: visible;
+}
+
+.contact p {
+	font-size: 16px;
+	text-align: right;
+}
+
+.contact-info {
+	padding-top: 6%;
+	border-right: 3px solid #4c8270;
+	border-bottom: none;
+}
+
+.contact img {
+	height: 250px;
+}
+
+.social-icons-container i {
+	font-size: 3em;
+}
+}
+
+@media (min-width: 980px) {
+	.projects img {
+	height: 100vh;
+	width: 80%;
+	border: 5px solid #fff;
+}
+}
+
